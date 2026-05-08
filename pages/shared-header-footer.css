@@ -1,0 +1,6 @@
+/* Intentionally minimal: rely on Energy Ogre global stylesheet for exact header/footer rendering. */
+.zip-wrapper {
+  background-color: var(--icon-background);
+  border-radius: 30px;
+  padding: 5px 35px 10px;
+}

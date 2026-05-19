@@ -550,10 +550,45 @@
   margin: 0 0 20px;
 }
 
+.comparison-sites__trust-stat {
+  margin: 0 auto 28px;
+  max-width: 760px;
+}
+
+.comparison-sites__trust-number {
+  color: #8ec742;
+  font-family: Arial, sans-serif;
+  font-size: clamp(54px, 6vw, 88px);
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 16px;
+}
+
+.comparison-sites__trust-divider {
+  border-top: 1px dotted #b8c5ca;
+  margin: 0 auto 16px;
+  width: 100%;
+}
+
+.comparison-sites__trust-label {
+  color: #000;
+  font-size: clamp(20px, 2.2vw, 30px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 auto 24px;
+}
+
 .comparison-sites__intro {
   font-size: 20px;
   line-height: 1.1;
   margin: 0 auto 28px;
+  max-width: 1260px;
+}
+
+.comparison-sites__closing {
+  font-size: 20px;
+  line-height: 1.1;
+  margin: 28px auto 0;
   max-width: 1260px;
 }
 
@@ -1309,10 +1344,26 @@ details summary {
     line-height: 1.25;
   }
 
+  .comparison-sites__trust-number {
+    font-size: 64px;
+    margin-bottom: 12px;
+  }
+
+  .comparison-sites__trust-label {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
   .comparison-sites__intro {
     font-size: 18px;
     line-height: 1.25;
     margin-bottom: 24px;
+  }
+
+  .comparison-sites__closing {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-top: 24px;
   }
 
   .comparison-sites__list span {
@@ -1500,10 +1551,34 @@ details summary {
     margin-bottom: 14px;
   }
 
+  .comparison-sites__trust-stat {
+    margin-bottom: 20px;
+  }
+
+  .comparison-sites__trust-number {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .comparison-sites__trust-divider {
+    margin-bottom: 12px;
+  }
+
+  .comparison-sites__trust-label {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+
   .comparison-sites__intro {
     font-size: 16px;
     line-height: 1.3;
     margin-bottom: 20px;
+  }
+
+  .comparison-sites__closing {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 20px;
   }
 
   .comparison-sites__list {

@@ -429,6 +429,27 @@
   margin: 10px 0 0;
 }
 
+.txu-faq-answer p {
+  margin: 0 0 12px;
+}
+
+.txu-faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.txu-faq-answer ul {
+  margin: 0 0 12px;
+  padding-left: 1.25em;
+}
+
+.txu-faq-answer li {
+  margin-bottom: 6px;
+}
+
+.txu-faq-answer li:last-child {
+  margin-bottom: 0;
+}
+
 .txu-faq-item.is-open .txu-faq-answer {
   display: block;
 }
@@ -519,13 +540,13 @@
 }
 
 .numbers__item p {
-  margin-bottom: 8px;
+  margin-bottom: 0;
   margin-top: 0;
 }
 
 .numbers .h4-seo {
   font-size: 1.875rem;
-  margin: 0;
+  margin: 0 0 8px;
 }
 
 .numbers__item p {
